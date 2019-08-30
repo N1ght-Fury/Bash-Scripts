@@ -38,8 +38,8 @@ tmux send-keys 'cd /home/pi/"Git Repos"/Oyungezer' ENTER
 tmux send-keys 'python3 Main.py 2' ENTER
 
 #Sahibinden reminder
-tmux new-window -n oyungezer
-tmux select-pane -t oyungezer
+tmux new-window -n sahibinden
+tmux select-pane -t sahibinden
 tmux send-keys 'cd /home/pi/"Git Repos"/sahibinden-house-checker' ENTER
 tmux send-keys 'python3 Main.py 2' ENTER
 
