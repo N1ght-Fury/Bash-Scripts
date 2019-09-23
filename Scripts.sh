@@ -41,11 +41,11 @@ tmux send-keys 'python3 Main.py 2' ENTER
 tmux new-window -n sahibinden
 tmux select-pane -t sahibinden
 tmux send-keys 'cd /home/pi/"Git Repos"/sahibinden-house-checker' ENTER
-tmux send-keys 'python3 Main.py 2' ENTER
+tmux send-keys 'python3 main.py 2' ENTER
 
 #Dogus Result Leacher
-tmux new-window -n sahibinden
-tmux select-pane -t sahibinden
+tmux new-window -n dogus
+tmux select-pane -t dogus
 tmux send-keys 'cd /home/pi/"Git Repos"/Dogus-Student-Leacher' ENTER
 tmux send-keys 'python3 main.py --main' ENTER
 
