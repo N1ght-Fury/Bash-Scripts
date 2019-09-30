@@ -49,5 +49,12 @@ tmux select-pane -t dogus
 tmux send-keys 'cd /home/pi/"Git Repos"/Dogus-Student-Leacher' ENTER
 tmux send-keys 'python3 main.py --main' ENTER
 
+
+#Dogus Course Schedule Send Mail
+tmux new-window -n dogusmail
+tmux select-pane -t dogusmail
+tmux send-keys 'cd /home/pi/"Git Repos"/Dogus-Student-Leacher-Termux' ENTER
+tmux send-keys 'python3 main.py -r -m mail_here -program -loop' ENTER
+
 tmux select-window -t earthq
 #tmux -2 attach-session -t scripts
